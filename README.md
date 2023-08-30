@@ -20,7 +20,8 @@ This Robot Framework test case demonstrates how to use the Selenium library to o
 ## Test Execution
 
 1. Install Robot Framework and the SeleniumLibrary, if not already installed.
-2. Make sure you have Chrome (or another supported browser) installed.
-3. Create a Robot Framework test file, e.g., `test.robot`, and copy the test case code into it.
+2. Make sure you have Chrome driver installed.
+3. Create a Robot Framework test file as 'test.robot', and write the test case code into it.
 4. Execute the test using the following command:
-   robot AutomationRobot\test.robot
+   robot <directory name>\<robot file name>
+   Example: robot AutomationRobot\test.robot
